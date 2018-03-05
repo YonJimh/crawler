@@ -1,10 +1,13 @@
 {
-  "name": "crawler",
-  "version": "1.0.0",
-  "description": "",
+  "name": "crawleryj",
+  "version": "1.0.5",
+  "description": "百度图片搜索小爬虫",
   "main": "index.js",
   "scripts": {
     "test": "node -v"
+  },
+  "bin": {
+    "crawleryj": "bin/crawleryj"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/yongjian-h/crawler#readme",
   "dependencies": {
-    "puppeteer": "^1.1.1"
+    "puppeteer": "^1.1.1",
+    "yargs": "^11.0.0"
   }
 }
