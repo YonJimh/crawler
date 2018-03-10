@@ -1,9 +1,8 @@
 images/*.png
 images/*.gif
 images/*.jpg
-
 screenshot/*.png
-chromium/*
+chromium/
 
 # Logs
 logs
