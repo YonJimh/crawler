@@ -13,7 +13,7 @@ class Crawler {
       (async () => {
         const browser = await puppeteer.launch({
           // const browser = await puppeteer.launch({headless: false}); // default is true
-          executablePath: './chromium/chrome.exe',
+          // executablePath: './chromium/chrome.exe',
           timeout:0,
           // headless:false
         });

@@ -4,7 +4,7 @@
 
 ## 安装
 
-# 使用前请 先安装Chromium 将Chromium拉到 Chromium目录下
+#如果运行时提示没有安装 先安装Chromium 使用前请 先安装Chromium 新建文件架chromium 将Chromium拉到 Chromium目录下
 
 
 # 安装方式

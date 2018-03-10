@@ -5,8 +5,8 @@ const path = require('path');
 const {promisify} = require('util');
 const writeFile = promisify(fs.watchFile);
 
-module.exports =async (src, dir) =>{
-    console.log(src);
+module.exports = async (src, dir) =>{
+    // console.log(src);
     if((/\.(jpg|png|gif)$/).test(src)){
         await urlToImg(src, dir);
     }else{
@@ -22,11 +22,11 @@ const urlToImg = promisify((url, dir,callback) => {
     const file = path.join(dir, `${Date.now()}${ext}`);
 
     mod.get(url, res => {
-       
+    //    console.log(res)
         res.pipe(fs.createWriteStream(file))
         .on('finish',()=>{
-            callback();  //设了回调 用promise让他好看点
-            console.log(file);
+            callback && callback();  //设了回调 用promise让他好看点
+            // console.log(file);
         });
      })
 });
