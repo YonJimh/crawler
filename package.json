@@ -1,6 +1,6 @@
 {
   "name": "crawleryj",
-  "version": "1.1.5",
+  "version": "1.1.8",
   "description": "百度图片搜索小爬虫",
   "main": "src/index.js",
   "scripts": {
